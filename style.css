@@ -1,0 +1,93 @@
+body{
+	margin: 0px;
+	background: #fff;
+}
+body, a , p ,h1,h2,h3,h4,h5,h6, div{
+	font-family: arial,sans-serif;
+}
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+#top form, li{
+	display: inline;
+}
+#logo{
+	width: 120px;
+	height: 44px;
+	margin-left: -20px;
+	margin-top: 10px;
+}
+#button_vxod{
+	border: 1px solid #4285f4;
+	background-color: #4285f4;
+	color: #fff;
+	display: inline;
+	padding: 8px;
+	font-weight: bold;
+}
+#navig_panel{
+	position: absolute;
+	right: 0px;
+	left: 0px;
+	background-color: #fafafa; 
+	border-bottom:1px solid #ebebeb;
+	padding: 15px;
+}
+#left{
+	float: left;
+	margin-left: 20px;
+}
+#right{
+	float:right;
+	margin-right: 20px;
+}
+#cubes{
+	width: 22px;
+	height: 22px;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+input{
+	width: 550px;
+	height: 30px;
+	font-size: 20px;
+	padding-left: 12px;
+	margin-left:125px;
+	margin-top: -45px;
+	position: absolute;
+
+}
+#fall{
+	margin-top: 50px;
+	margin-left: 138px;
+}
+#fall li{
+	padding: 12px;
+	font-size: 12px;
+}
+#fall li:first-child{
+	font-weight: bold;
+    border-bottom: 3px solid #4285f4;
+}
+a:hover{
+	color: black;
+}
+#wid a{
+		color: #3F7FBF;
+}
+#fall li:last-child:hover{
+	background-color: rgba(0, 0, 0, 0.08);
+	border: 2px solid #ebebeb;
+	border-radius: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+#fall li:last-child a:hover{
+	color: #666;
+}
