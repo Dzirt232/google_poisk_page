@@ -145,3 +145,31 @@ a:hover{
 	top:775px;
 	left: 335px;
 }
+#next {
+	position: absolute;
+	top: 10px;
+	left: 265px;
+}
+#g_big {
+	height: 50px;
+	width: 15px;
+}
+.o {
+	height: 25px;
+	width: 15px;
+}
+#gle {
+	height: 25px;
+	width: 45px;
+	padding-bottom: 13px;
+}
+#google img {
+	display: block;
+}
+#google a {
+	padding-left:30px 15px 30px 0;
+	color: #4285f4;
+}
+#google a:hover {
+	text-decoration: underline;
+}
