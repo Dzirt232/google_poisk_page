@@ -68,9 +68,11 @@ input{
 	margin-top: 50px;
 	margin-left: 138px;
 }
+#navig_panel #fall li a{
+	font-size: 12px;
+}
 #navig_panel #fall li{
 	padding: 12px;
-	font-size: 12px;
 }
 #navig_panel #fall li:first-child{
 	font-weight: bold;
@@ -130,4 +132,16 @@ a:hover{
 }
 #footer #fall li{
 	padding: 10px;
+}
+#rez p{
+	position: absolute;
+	top: 125px;
+	left: 160px;
+	color: #666;
+	font-size: 12px;
+}
+#google {
+	position: absolute;
+	top:775px;
+	left: 335px;
 }
