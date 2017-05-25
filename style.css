@@ -13,6 +13,7 @@ ul{
 a{
 	text-decoration: none;
 	color: #666;
+	font-size: 14px;
 }
 #top form, li{
 	display: inline;
@@ -63,15 +64,15 @@ input{
 	position: absolute;
 
 }
-#fall{
+#navig_panel #fall{
 	margin-top: 50px;
 	margin-left: 138px;
 }
-#fall li{
+#navig_panel #fall li{
 	padding: 12px;
 	font-size: 12px;
 }
-#fall li:first-child{
+#navig_panel #fall li:first-child{
 	font-weight: bold;
     border-bottom: 3px solid #4285f4;
 }
@@ -81,13 +82,52 @@ a:hover{
 #wid a{
 		color: #3F7FBF;
 }
-#fall li:last-child:hover{
+#navig_panel #fall li:last-child:hover{
 	background-color: rgba(0, 0, 0, 0.08);
 	border: 2px solid #ebebeb;
 	border-radius: 5px;
 	padding-top: 3px;
 	padding-bottom: 3px;
 }
-#fall li:last-child a:hover{
+#navig_panel #fall li:last-child a:hover{
 	color: #666;
+}
+#footer {
+	position: absolute;
+	bottom: 0px;
+	background-color: #f2f2f2; 
+	border-top: 1px solid #e4e4e4;
+	padding-bottom: 5px;
+	left: 0px;
+	right: 0px;
+}
+#footer p{
+	display: inline;
+	padding: 10px 0;
+	color: #aaa;
+}
+#footer #top p{
+	font-size: 14px;
+}
+#footer #top{
+	padding-bottom: 5px;
+	padding-top: 0px;
+}
+#footer p:after{
+	content: " - ";
+}
+#footer p:last-child:after{
+	content: none;
+}
+#footer p:first-child:before{
+	content: ".";
+	padding-bottom: 7px;
+	font-size: 50px;
+	font-weight: bolder;
+}
+#footer #top, #footer #fall{
+	padding-left: 125px;
+}
+#footer #fall li{
+	padding: 10px;
 }
